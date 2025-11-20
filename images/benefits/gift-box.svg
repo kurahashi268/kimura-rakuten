@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="heroGiftTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5E9"/>
+      <stop offset="100%" stop-color="#FFE0C7"/>
+    </linearGradient>
+    <linearGradient id="heroGiftBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F88B72"/>
+      <stop offset="100%" stop-color="#F05E76"/>
+    </linearGradient>
+    <linearGradient id="heroGiftAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFCF6F"/>
+      <stop offset="100%" stop-color="#F08C3B"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="18" width="44" height="28" rx="12" fill="#0E111B" opacity="0.08"/>
+  <rect x="8" y="16" width="48" height="30" rx="14" fill="url(#heroGiftTop)"/>
+  <path d="M8 30h48v12a12 12 0 0 1-12 12H20A12 12 0 0 1 8 42z" fill="url(#heroGiftBody)"/>
+  <rect x="29" y="12" width="6" height="40" rx="3" fill="#FBF4EE"/>
+  <rect x="20" y="32" width="24" height="12" rx="6" fill="url(#heroGiftAccent)"/>
+  <path d="M32 14c-2.6-6-8-8-11-6s-3 6 3 9c-4 2-6.8 5.4-6 9s4 5 8 1.5z" fill="#F05E76" opacity="0.9"/>
+  <path d="M32 14c2.6-6 8-8 11-6s3 6-3 9c4 2 6.8 5.4 6 9s-4 5-8 1.5z" fill="#F05E76" opacity="0.9"/>
+  <circle cx="32" cy="32" r="4" fill="#FBF4EE"/>
+</svg>
+

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260">
+  <defs>
+    <linearGradient id="bg-price" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1C2C" />
+      <stop offset="100%" stop-color="#C41E3A" />
+    </linearGradient>
+    <linearGradient id="coin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE9B0" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7F6F2" />
+      <stop offset="100%" stop-color="#C3D3E3" />
+    </linearGradient>
+    <filter id="shadow-price" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+  <rect width="400" height="260" rx="28" fill="url(#bg-price)" />
+  <path d="M160 60c60-30 120-30 180 0" stroke="#ffffff22" stroke-width="20" stroke-linecap="round" fill="none" />
+  <path d="M40 190c80-90 220-90 320 0" stroke="#ffffff18" stroke-width="30" stroke-linecap="round" fill="none" />
+  <g transform="translate(70 118)">
+    <rect width="60" height="90" rx="12" fill="url(#bar)" opacity="0.65" filter="url(#shadow-price)" />
+    <rect x="80" y="20" width="60" height="90" rx="12" fill="url(#bar)" opacity="0.85" filter="url(#shadow-price)" />
+    <rect x="160" y="50" width="60" height="90" rx="12" fill="url(#bar)" opacity="0.95" filter="url(#shadow-price)" />
+  </g>
+  <g transform="translate(250 110)">
+    <circle cx="46" cy="46" r="46" fill="url(#coin)" filter="url(#shadow-price)" />
+    <circle cx="46" cy="46" r="32" fill="none" stroke="#B07A11" stroke-width="4" />
+    <path d="M35 28h22c8 0 14 6 14 14s-6 14-14 14h-12c-8 0-14 6-14 14s6 14 14 14h24" fill="none" stroke="#8A5A00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <circle cx="120" cy="90" r="24" fill="#ffffff26" />
+  <circle cx="82" cy="210" r="32" fill="#00000020" />
+</svg>
+
