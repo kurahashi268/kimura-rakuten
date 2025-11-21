@@ -18,11 +18,11 @@ body {
     color: #333;
     /* background: #fff; */
     overflow-x: hidden;
-    background-image: url('images/bg.webp');
+    /* background-image: url('images/bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 /* グローバルクリスマス雪オーバーレイ */
@@ -1656,10 +1656,6 @@ a:hover {
         grid-template-columns: 1fr;
         gap: 16px;
         margin-top: 24px;
-    }
-
-    .image-slider-wrapper {
-        height: 400px;
     }
 
     .image-slide-text .slide-title {
