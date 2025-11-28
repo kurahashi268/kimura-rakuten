@@ -559,7 +559,7 @@
         };
 
         const animationGroups = [
-            { selector: '.showcase-item', animation: 'fragment', stagger: 0.08 },
+            // { selector: '.showcase-item', animation: 'fragment', stagger: 0.08 },
             // { selector: '.gift-guide-card', animation: 'ripple', stagger: 0.09 },
             // { selector: '.category-badge-item', animation: 'charge', stagger: 0.06 },
             // { selector: '.product-grid .product-item', animation: 'shard', stagger: 0.07 },
